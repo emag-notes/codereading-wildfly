@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Maven: sun.jdk:jconsole:jdk">
-    <CLASSES>
-      <root url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Classes/jconsole.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
