@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.wildfly:wildfly-domain-http-interface:8.0.0.Alpha3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/domain-http/interface/pom.xml!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/domain-http/interface/wildfly-domain-http-interface-8.0.0.Alpha3-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/domain-http/interface/wildfly-domain-http-interface-8.0.0.Alpha3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

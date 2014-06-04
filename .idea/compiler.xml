@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wildfly-appclient" />
+        <module name="wildfly-arquillian-common" />
+        <module name="wildfly-arquillian-common-domain" />
+        <module name="wildfly-arquillian-container-domain-managed" />
+        <module name="wildfly-arquillian-container-domain-remote" />
+        <module name="wildfly-arquillian-container-embedded" />
+        <module name="wildfly-arquillian-container-managed" />
+        <module name="wildfly-arquillian-container-remote" />
+        <module name="wildfly-arquillian-protocol-jmx" />
+        <module name="wildfly-arquillian-testenricher-msc" />
+        <module name="wildfly-arquillian-testng-integration" />
+        <module name="wildfly-batch" />
+        <module name="wildfly-build-config" />
+        <module name="wildfly-build-modular" />
+        <module name="wildfly-cli" />
+        <module name="wildfly-client-all" />
+        <module name="wildfly-clustering-api" />
+        <module name="wildfly-clustering-common" />
+        <module name="wildfly-clustering-infinispan" />
+        <module name="wildfly-clustering-jgroups" />
+        <module name="wildfly-clustering-server" />
+        <module name="wildfly-clustering-singleton" />
+        <module name="wildfly-clustering-web-api" />
+        <module name="wildfly-clustering-web-infinispan" />
+        <module name="wildfly-clustering-web-spi" />
+        <module name="wildfly-clustering-web-undertow" />
+        <module name="wildfly-cmp" />
+        <module name="wildfly-config-assembly" />
+        <module name="wildfly-connector" />
+        <module name="wildfly-controller" />
+        <module name="wildfly-controller-client" />
+        <module name="wildfly-core-model-test-controller-7.1.2" />
+        <module name="wildfly-core-model-test-controller-7.2.0" />
+        <module name="wildfly-core-model-test-controller-optional" />
+        <module name="wildfly-core-model-test-framework" />
+        <module name="wildfly-core-model-test-tests" />
+        <module name="wildfly-core-security" />
+        <module name="wildfly-deployment-repository" />
+        <module name="wildfly-deployment-scanner" />
+        <module name="wildfly-domain-http-error-context" />
+        <module name="wildfly-domain-http-interface" />
+        <module name="wildfly-domain-management" />
+        <module name="wildfly-ee" />
+        <module name="wildfly-ejb3" />
+        <module name="wildfly-embedded" />
+        <module name="wildfly-host-controller" />
+        <module name="wildfly-io (1)" />
+        <module name="wildfly-io-tests" />
+        <module name="wildfly-jaxr" />
+        <module name="wildfly-jaxrs" />
+        <module name="wildfly-jberet" />
+        <module name="wildfly-jdr" />
+        <module name="wildfly-jmx" />
+        <module name="wildfly-jpa" />
+        <module name="wildfly-jpa-util" />
+        <module name="wildfly-jsf" />
+        <module name="wildfly-jsf-injection" />
+        <module name="wildfly-jsf-installer" />
+        <module name="wildfly-jsr77" />
+        <module name="wildfly-logging" />
+        <module name="wildfly-mail" />
+        <module name="wildfly-management-client-content" />
+        <module name="wildfly-messaging" />
+        <module name="wildfly-mod_cluster-extension" />
+        <module name="wildfly-mod_cluster-undertow" />
+        <module name="wildfly-model-test" />
+        <module name="wildfly-naming" />
+        <module name="wildfly-network" />
+        <module name="wildfly-patching" />
+        <module name="wildfly-platform-mbean" />
+        <module name="wildfly-pojo" />
+        <module name="wildfly-process-controller" />
+        <module name="wildfly-protocol" />
+        <module name="wildfly-remoting (1)" />
+        <module name="wildfly-remoting-test" />
+        <module name="wildfly-rts" />
+        <module name="wildfly-sar" />
+        <module name="wildfly-security" />
+        <module name="wildfly-security-manager" />
+        <module name="wildfly-server" />
+        <module name="wildfly-spec-api-test" />
+        <module name="wildfly-subsystem-test-controller-7.1.2" />
+        <module name="wildfly-subsystem-test-controller-7.2.0" />
+        <module name="wildfly-subsystem-test-framework" />
+        <module name="wildfly-subsystem-test-tests" />
+        <module name="wildfly-system-jmx" />
+        <module name="wildfly-testsuite-shared" />
+        <module name="wildfly-threads" />
+        <module name="wildfly-transactions" />
+        <module name="wildfly-ts-integ-basic" />
+        <module name="wildfly-ts-integ-patching" />
+        <module name="wildfly-ts-integ-smoke" />
+        <module name="wildfly-undertow" />
+        <module name="wildfly-version" />
+        <module name="wildfly-web" />
+        <module name="wildfly-web-common" />
+        <module name="wildfly-webservices-server-integration" />
+        <module name="wildfly-webservices-tests-integration" />
+        <module name="wildfly-weld" />
+        <module name="wildfly-xts" />
+      </profile>
+      <profile default="false" name="Annotation profile for wildfly-jacorb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="generatedTranslationFilesPath" value="$PROJECT_DIR$/jacorb/target/generated-translation-files" />
+        <processorPath useClasspath="true" />
+        <module name="wildfly-jacorb" />
+      </profile>
+      <profile default="false" name="Annotation profile for wildfly-clustering-web-catalina" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="generatedTranslationFilesPath" value="$PROJECT_DIR$/clustering/web/catalina/target/generated-translation-files" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for wildfly-clustering-ejb-infinispan" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="generatedTranslationFilesPath" value="$PROJECT_DIR$/clustering/ejb/infinispan/target/generated-translation-files" />
+        <processorPath useClasspath="true" />
+        <module name="wildfly-clustering-ejb-infinispan" />
+      </profile>
+      <profile default="false" name="Annotation profile for wildfly-clustering-ejb-spi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="generatedTranslationFilesPath" value="$PROJECT_DIR$/clustering/ejb/spi/target/generated-translation-files" />
+        <processorPath useClasspath="true" />
+        <module name="wildfly-clustering-ejb-spi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdr" target="1.7" />
+      <module name="wildfly-appclient" target="1.7" />
+      <module name="wildfly-arquillian" target="1.7" />
+      <module name="wildfly-arquillian-common" target="1.7" />
+      <module name="wildfly-arquillian-common-domain" target="1.7" />
+      <module name="wildfly-arquillian-container-domain-managed" target="1.7" />
+      <module name="wildfly-arquillian-container-domain-remote" target="1.7" />
+      <module name="wildfly-arquillian-container-embedded" target="1.7" />
+      <module name="wildfly-arquillian-container-managed" target="1.7" />
+      <module name="wildfly-arquillian-container-remote" target="1.7" />
+      <module name="wildfly-arquillian-protocol-jmx" target="1.7" />
+      <module name="wildfly-arquillian-testenricher-msc" target="1.7" />
+      <module name="wildfly-arquillian-testng-integration" target="1.7" />
+      <module name="wildfly-batch" target="1.7" />
+      <module name="wildfly-batch-parent" target="1.7" />
+      <module name="wildfly-build" target="1.7" />
+      <module name="wildfly-build-config" target="1.7" />
+      <module name="wildfly-build-modular" target="1.7" />
+      <module name="wildfly-cli" target="1.7" />
+      <module name="wildfly-client-all" target="1.7" />
+      <module name="wildfly-clustering" target="1.7" />
+      <module name="wildfly-clustering-api" target="1.7" />
+      <module name="wildfly-clustering-common" target="1.7" />
+      <module name="wildfly-clustering-ejb" target="1.7" />
+      <module name="wildfly-clustering-ejb-infinispan" target="1.7" />
+      <module name="wildfly-clustering-ejb-spi" target="1.7" />
+      <module name="wildfly-clustering-ejb3-infinispan" target="1.7" />
+      <module name="wildfly-clustering-impl" target="1.7" />
+      <module name="wildfly-clustering-infinispan" target="1.7" />
+      <module name="wildfly-clustering-jgroups" target="1.7" />
+      <module name="wildfly-clustering-registry" target="1.7" />
+      <module name="wildfly-clustering-server" target="1.7" />
+      <module name="wildfly-clustering-service" target="1.7" />
+      <module name="wildfly-clustering-singleton" target="1.7" />
+      <module name="wildfly-clustering-web" target="1.7" />
+      <module name="wildfly-clustering-web-api" target="1.7" />
+      <module name="wildfly-clustering-web-catalina" target="1.7" />
+      <module name="wildfly-clustering-web-infinispan" target="1.7" />
+      <module name="wildfly-clustering-web-spi" target="1.7" />
+      <module name="wildfly-clustering-web-undertow" target="1.7" />
+      <module name="wildfly-cmp" target="1.7" />
+      <module name="wildfly-config-assembly" target="1.7" />
+      <module name="wildfly-configadmin" target="1.7" />
+      <module name="wildfly-connector" target="1.7" />
+      <module name="wildfly-controller" target="1.7" />
+      <module name="wildfly-controller-client" target="1.6" />
+      <module name="wildfly-core" target="1.7" />
+      <module name="wildfly-core-model-test" target="1.7" />
+      <module name="wildfly-core-model-test-controller-7.1.2" target="1.7" />
+      <module name="wildfly-core-model-test-controller-7.2.0" target="1.7" />
+      <module name="wildfly-core-model-test-controller-optional" target="1.7" />
+      <module name="wildfly-core-model-test-framework" target="1.7" />
+      <module name="wildfly-core-model-test-tests" target="1.7" />
+      <module name="wildfly-core-security" target="1.7" />
+      <module name="wildfly-deployment-repository" target="1.7" />
+      <module name="wildfly-deployment-scanner" target="1.7" />
+      <module name="wildfly-dist" target="1.7" />
+      <module name="wildfly-dist (1)" target="1.7" />
+      <module name="wildfly-domain-http" target="1.7" />
+      <module name="wildfly-domain-http-error-context" target="1.7" />
+      <module name="wildfly-domain-http-interface" target="1.7" />
+      <module name="wildfly-domain-management" target="1.7" />
+      <module name="wildfly-ee" target="1.7" />
+      <module name="wildfly-ejb-client-bom" target="1.7" />
+      <module name="wildfly-ejb3" target="1.7" />
+      <module name="wildfly-embedded" target="1.7" />
+      <module name="wildfly-host-controller" target="1.7" />
+      <module name="wildfly-io" target="1.7" />
+      <module name="wildfly-io (1)" target="1.7" />
+      <module name="wildfly-io-tests" target="1.7" />
+      <module name="wildfly-jacorb" target="1.7" />
+      <module name="wildfly-jaxr" target="1.7" />
+      <module name="wildfly-jaxrs" target="1.7" />
+      <module name="wildfly-jberet" target="1.7" />
+      <module name="wildfly-jdr" target="1.7" />
+      <module name="wildfly-jms-client-bom" target="1.7" />
+      <module name="wildfly-jmx" target="1.7" />
+      <module name="wildfly-jpa" target="1.7" />
+      <module name="wildfly-jpa-hibernate3" target="1.7" />
+      <module name="wildfly-jpa-hibernate4" target="1.7" />
+      <module name="wildfly-jpa-openjpa" target="1.7" />
+      <module name="wildfly-jpa-parent" target="1.7" />
+      <module name="wildfly-jpa-spi" target="1.7" />
+      <module name="wildfly-jpa-util" target="1.7" />
+      <module name="wildfly-jsf" target="1.7" />
+      <module name="wildfly-jsf-injection" target="1.7" />
+      <module name="wildfly-jsf-installer" target="1.7" />
+      <module name="wildfly-jsf-parent" target="1.7" />
+      <module name="wildfly-jsr77" target="1.7" />
+      <module name="wildfly-logging" target="1.7" />
+      <module name="wildfly-mail" target="1.7" />
+      <module name="wildfly-management-client-content" target="1.7" />
+      <module name="wildfly-messaging" target="1.7" />
+      <module name="wildfly-mod_cluster" target="1.7" />
+      <module name="wildfly-mod_cluster-extension" target="1.7" />
+      <module name="wildfly-mod_cluster-undertow" target="1.7" />
+      <module name="wildfly-mod_cluster-web" target="1.7" />
+      <module name="wildfly-modcluster" target="1.7" />
+      <module name="wildfly-model-test" target="1.7" />
+      <module name="wildfly-naming" target="1.7" />
+      <module name="wildfly-network" target="1.7" />
+      <module name="wildfly-osgi" target="1.7" />
+      <module name="wildfly-osgi-configadmin" target="1.7" />
+      <module name="wildfly-osgi-http" target="1.7" />
+      <module name="wildfly-osgi-integration" target="1.7" />
+      <module name="wildfly-osgi-jmx" target="1.7" />
+      <module name="wildfly-osgi-jpa" target="1.7" />
+      <module name="wildfly-osgi-jta" target="1.7" />
+      <module name="wildfly-osgi-launcher" target="1.7" />
+      <module name="wildfly-osgi-naming" target="1.7" />
+      <module name="wildfly-osgi-service" target="1.7" />
+      <module name="wildfly-osgi-web" target="1.7" />
+      <module name="wildfly-parent" target="1.7" />
+      <module name="wildfly-patching" target="1.7" />
+      <module name="wildfly-platform-mbean" target="1.7" />
+      <module name="wildfly-pojo" target="1.7" />
+      <module name="wildfly-process-controller" target="1.7" />
+      <module name="wildfly-protocol" target="1.6" />
+      <module name="wildfly-remoting" target="1.7" />
+      <module name="wildfly-remoting (1)" target="1.7" />
+      <module name="wildfly-remoting-test" target="1.7" />
+      <module name="wildfly-rts" target="1.7" />
+      <module name="wildfly-sar" target="1.7" />
+      <module name="wildfly-security" target="1.7" />
+      <module name="wildfly-security-manager" target="1.7" />
+      <module name="wildfly-server" target="1.7" />
+      <module name="wildfly-spec-api" target="1.7" />
+      <module name="wildfly-spec-api-test" target="1.7" />
+      <module name="wildfly-subsystem-test" target="1.7" />
+      <module name="wildfly-subsystem-test-controller-7.1.2" target="1.7" />
+      <module name="wildfly-subsystem-test-controller-7.2.0" target="1.7" />
+      <module name="wildfly-subsystem-test-framework" target="1.7" />
+      <module name="wildfly-subsystem-test-parent" target="1.7" />
+      <module name="wildfly-subsystem-test-tests" target="1.7" />
+      <module name="wildfly-system-jmx" target="1.7" />
+      <module name="wildfly-testsuite" target="1.7" />
+      <module name="wildfly-testsuite-shared" target="1.7" />
+      <module name="wildfly-threads" target="1.7" />
+      <module name="wildfly-transactions" target="1.7" />
+      <module name="wildfly-ts-integ" target="1.7" />
+      <module name="wildfly-ts-integ-basic" target="1.7" />
+      <module name="wildfly-ts-integ-patching" target="1.7" />
+      <module name="wildfly-ts-integ-smoke" target="1.7" />
+      <module name="wildfly-undertow" target="1.7" />
+      <module name="wildfly-version" target="1.7" />
+      <module name="wildfly-web" target="1.7" />
+      <module name="wildfly-web-common" target="1.7" />
+      <module name="wildfly-webservices" target="1.7" />
+      <module name="wildfly-webservices-server-integration" target="1.7" />
+      <module name="wildfly-webservices-tests-integration" target="1.7" />
+      <module name="wildfly-weld" target="1.7" />
+      <module name="wildfly-xts" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.wildfly:wildfly-core-model-test-framework:8.0.0.Alpha3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core-model-test/framework/pom.xml!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/core-model-test/framework/wildfly-core-model-test-framework-8.0.0.Alpha3-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/core-model-test/framework/wildfly-core-model-test-framework-8.0.0.Alpha3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
